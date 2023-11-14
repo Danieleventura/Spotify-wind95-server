@@ -2,6 +2,11 @@
 
 Spotify Windows 95 project server
 
+The application can be viewed at https://spotify-rust-chi.vercel.app/.
+
+React app: https://github.com/Danieleventura/Spotify-Windows-95.
+
+
 ## Using your own credentials
 
 You will need to register your app and get your own credentials from the
