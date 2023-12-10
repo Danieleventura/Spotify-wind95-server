@@ -2,7 +2,7 @@
 
 Spotify Windows 95 project server
 
-The application can be viewed at https://spotify-rust-chi.vercel.app/.
+The application can be viewed at https://spotify-windows-95.vercel.app/.
 
 React app: https://github.com/Danieleventura/Spotify-Windows-95.
 
@@ -30,3 +30,24 @@ For this application you need the url of your react project:
 ```bash
 PROD_URL='url production'
 ```
+## Installation
+
+These examples run on Node.js. On its
+[website](http://www.nodejs.org/download/) you can find instructions on how to
+install it.
+
+Once installed, clone the repository and install its dependencies running:
+
+```bash
+npm install
+```
+
+## Running the App Locally
+
+Start with the following command:
+
+```bash
+npm run dev
+```
+
+The React application will start on `http://localhost:3000`
