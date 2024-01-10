@@ -39,7 +39,7 @@ app.get('/auth/status', (req, res) => {
 
 app.get('/auth/login', (req, res) => {
 
-  var scope = "user-read-playback-state user-modify-playback-state user-modify-playback-state streaming user-read-email user-read-private playlist-read-private playlist-read-private playlist-read-collaborative"
+  var scope = "user-library-read user-read-playback-state user-modify-playback-state user-modify-playback-state streaming user-read-email user-read-private playlist-read-private playlist-read-private playlist-read-collaborative"
   var state = generateRandomString(16);
 
   var auth_query_parameters = new URLSearchParams({
